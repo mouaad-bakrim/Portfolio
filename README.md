@@ -26,12 +26,12 @@ Here is the folder structure of 3D-Portfolio.
 Download or clone this repo by using the link below:
 
 ```bash
- https://github.com/ladunjexa/Threejs_3D_Portfolio.git
+https://github.com/mouaad-bakrim/Portfolio
 ```
 
 #### Step 2:
 
-3D-Portfolio using NPM (Node Package Manager), therefore, make sure that Node.js is installed by execute the following command in console:
+Portfolio using NPM (Node Package Manager), therefore, make sure that Node.js is installed by execute the following command in console:
 
 ```bash
   node -v
