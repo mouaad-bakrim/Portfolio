@@ -40,18 +40,20 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>About.</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+          Je suis un développeur passionné par la création de solutions innovantes pour résoudre les problèmes réels. Mon parcours de formation en développement web m'a permis de maîtriser les langages de programmation tels que Laravel Symfony , ANGULAR ,HTML, CSS, Javascript ainsi que les frameworks tels que Laravel. J'ai également une solide expérience dans la conception de bases de données et la création de sites web.
+
+          Je suis motivé par la possibilité de travailler sur des projets complexes et de relever de nouveaux défis en matière de développement. J'aime travailler en équipe et suis convaincu que la collaboration est essentielle pour créer des solutions qui répondent aux besoins des utilisateurs.
+
+          Je suis à la recherche de nouvelles opportunités pour mettre mes compétences en pratique et continuer à progresser en tant que développeur Full Stack. Je suis prêt à m'engager à fond pour contribuer au succès de toute entreprise avec laquelle je travaillerai.
+
+          Si vous êtes à la recherche d'un développeur passionné et déterminé, n'hésitez pas à me contacter pour discuter de toute opportunité de collaboration.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

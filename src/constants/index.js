@@ -4,25 +4,24 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
+  sql,
+  laravel,
+  symfony,
+  bootstrap,
+  php,
   reactjs,
-  redux,
   tailwind,
-  nodejs,
-  mongodb,
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  amdd,
+  word,
+  swidgi,
   carrent,
   jobit,
   tripguide,
-  threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -46,17 +45,14 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "FrontEnd Developer",
     icon: mobile,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+
 ];
 
 const technologies = [
@@ -71,38 +67,36 @@ const technologies = [
   {
     name: "JavaScript",
     icon: javascript,
+  },{
+    name: "php",
+    icon: php,
+  },{
+    name: "laravel",
+    icon: laravel,
+  },{
+    name: "symfony",
+    icon: symfony,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+
   {
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+
   {
     name: "Tailwind CSS",
     icon: tailwind,
+  }, {
+    name: "bootstrap",
+    icon: bootstrap,
   },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+
   {
     name: "git",
     icon: git,
+  },{
+    name: "sql",
+    icon: sql,
   },
   {
     name: "figma",
@@ -116,55 +110,38 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Full Stack | stage ",
+    company_name: "world wide progress",
+    icon: word,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "aout 2023 - nouvembre 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Creation d'une application de gestion des ressources humaines.",
+      "les technologe: Laravel, PHP, Bootstrap, Fullcalendar.js",
+
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Stage",
+    company_name: "AMDD",
+    icon: amdd,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "aout 2023 - septembre 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+        "Real-time chat application.",
+      "les technologe: Laravel, PHP, websocket, laravel echo, jquery ",
+
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Web Developer | Stage PFE",
+    company_name: "SWEDGI",
+    icon: swidgi,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Avril 2023 - Juin 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+"Creation d'un application qui permet la gestion d'un cabinet comptabilité",
+"les technologe: Symfony, PHP, Docker,webpack ",
     ],
   },
 ];
@@ -198,67 +175,57 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Taxe sujour",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Une application web de gestion des taxes de séjour permet de gérer facilement et efficacement la collecte, le suivi et la déclaration des taxes de séjour pour les établissements d'hébergement..",
     tags: [
       {
-        name: "react",
+        name: "spring boot",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "angular",
         color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/mouaad-bakrim/Projet-Taxe-Sejour",
   },
   {
-    name: "Job IT",
+    name: "cabinet comptable",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "L'application web propose une solution intégrée de gestion pour les cabinets comptables, simplifiant la tenue des dossiers, la gestion des clients, la saisie comptable, la génération de rapports financiers et la collaboration en temps réel..",
     tags: [
       {
-        name: "react",
+        name: "Symfony",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "bootstrap",
         color: "green-text-gradient",
       },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/mouaad-bakrim/projet-swedgi-sir-pfe",
   },
   {
-    name: "Trip Guide",
+    name: "GRH",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Une application web complète pour la gestion des ressources humaines, simplifiant les processus de recrutement, de suivi des performances, de gestion des congés et de génération de rapports.",
     tags: [
       {
-        name: "nextjs",
+        name: "Laravel",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "bootstrap",
         color: "green-text-gradient",
       },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/mouaad-bakrim/IRH",
   },
 ];
 
